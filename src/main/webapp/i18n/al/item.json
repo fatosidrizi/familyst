@@ -1,0 +1,27 @@
+{
+  "familystApp": {
+    "item": {
+      "home": {
+        "title": "Items",
+        "createLabel": "Krijo një të ri Item",
+        "createOrEditLabel": "Krijo ose përpuno një Item",
+        "notFound": "No Items found"
+      },
+      "created": "Një Item i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Item u përpunua me identifikues {{ param }}",
+      "deleted": "Një Item u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Item"
+      },
+      "name": "Name",
+      "active": "Active",
+      "image": "Image",
+      "sortOrder": "Sort Order",
+      "shoppingList": "Shopping List",
+      "recipe": "Recipe"
+    }
+  }
+}

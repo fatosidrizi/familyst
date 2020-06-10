@@ -1,0 +1,25 @@
+{
+  "familystApp": {
+    "shoppingList": {
+      "home": {
+        "title": "Shopping Lists",
+        "createLabel": "Shopping List erstellen",
+        "createOrEditLabel": "Shopping List erstellen oder bearbeiten",
+        "notFound": "No Shopping Lists found"
+      },
+      "created": "Shopping List erstellt mit ID {{ param }}",
+      "updated": "Shopping List aktualisiert mit ID {{ param }}",
+      "deleted": "Shopping List gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Shopping List {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Shopping List"
+      },
+      "name": "Name",
+      "sortOrder": "Sort Order",
+      "item": "Item",
+      "user": "User"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "familystApp": {
+    "shoppingList": {
+      "home": {
+        "title": "Shopping Lists",
+        "createLabel": "Krijo një të ri Shopping List",
+        "createOrEditLabel": "Krijo ose përpuno një Shopping List",
+        "notFound": "No Shopping Lists found"
+      },
+      "created": "Një Shopping List i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Shopping List u përpunua me identifikues {{ param }}",
+      "deleted": "Një Shopping List u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Shopping List {{ id }}?"
+      },
+      "detail": {
+        "title": "Shopping List"
+      },
+      "name": "Name",
+      "sortOrder": "Sort Order",
+      "item": "Item",
+      "user": "User"
+    }
+  }
+}

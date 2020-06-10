@@ -1,0 +1,27 @@
+{
+  "familystApp": {
+    "recipe": {
+      "home": {
+        "title": "Recipes",
+        "createLabel": "Krijo një të ri Recipe",
+        "createOrEditLabel": "Krijo ose përpuno një Recipe",
+        "notFound": "No Recipes found"
+      },
+      "created": "Një Recipe i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Recipe u përpunua me identifikues {{ param }}",
+      "deleted": "Një Recipe u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Recipe {{ id }}?"
+      },
+      "detail": {
+        "title": "Recipe"
+      },
+      "name": "Name",
+      "description": "Description",
+      "image": "Image",
+      "sortOrder": "Sort Order",
+      "item": "Item",
+      "user": "User"
+    }
+  }
+}
