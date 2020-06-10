@@ -1,0 +1,41 @@
+entity Item {
+	name String required,
+    active Boolean,
+    image ImageBlob,
+    sortOrder Long
+}
+
+entity ShoppingList {
+	name String required,
+    sortOrder Long
+}
+
+entity Recipe{
+	name String required,
+    description String,
+    image ImageBlob,
+    sortOrder Long
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	ShoppingList to Item{shoppingList(name)},
+    Recipe to Item{recipe(name)}
+}
+
+relationship ManyToOne {
+	ShoppingList{user(login) required} to User,
+	Recipe{user(login) required} to User
+}
+
+// Set pagination options
+paginate all with infinite-scroll
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
